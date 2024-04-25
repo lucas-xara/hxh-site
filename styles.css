@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(88, 88, 106);
+}
+
+.navbar{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    font-size: 20px;
+}
+
+.conteiner_logo{
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.conteiner_lista li{
+    list-style-type: none;
+}
+
+.conteiner_lista ul{
+    display: flex;
+    gap: 80px;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin-top: 40px;
+    margin-right: 3rem;
+    align-content: center;
+
+}
+
+.tavern{
+    display: flex;
+    font-size: 1.8rem;
+    padding: 1rem;
+    background-color: #CB5364;
+    color: whitesmoke;
+    height: 80px;
+    width: 400px;
+    border-radius: 15%;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
+}
+
+.login{
+    color: #0500E4;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+img.profile{
+border-radius: 50%;
+}
+
+.city_background{
+    background-image: url("./assets/hunter_bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.red_background{
+    size: 100%, 750px;
+    background-color: rgba(178, 52, 52, 0.74);
+}
+
+.gradiente{
+    background: rgb(255,255,255);
+    margin-top: -220px;
+    height: 570px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%);
+}
+
+.welcome{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696) ;
+    width: 100vw;
+    padding-top: 100px;
+    height: 100vh;
+    padding-left: 80px;
+    font-size: 48px;
+    color:whitesmoke
+}
+
+.netero_img{
+    padding-left: 60px;
+    padding-top: 600px;
+}
+
+.netero_quote{
+    font-size: x-large;
+    padding-left: 50rem;
+    margin-top: -300px;
+}
+
+.linha{
+    padding-left: 15rem;
+    padding-top: 15rem;
+    width: 80%;
+}
+
+.zodiac_section{
+    padding-top: 100px;
+}
+
+.meet_zodiacs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about_zodiacs{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.conteinter_pai{
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.display_flex{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    background-color: rgba(175,217,246,255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
+}
+
+box_pic{
+    border-radius: 50%;
+}
