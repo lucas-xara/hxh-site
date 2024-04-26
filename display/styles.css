@@ -53,7 +53,7 @@ li {
 
 .button_text {
   margin: auto;
-  font-size: 20px;
+  font-size: 14px;
   color: whitesmoke;
 }
 
@@ -331,4 +331,23 @@ img.beans_pic {
 
 .linkedin {
   padding-top: 3px;
+}
+
+.news_title{
+    margin-top: 6rem;
+    text-align: center;
+    margin: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
+}
+
+.news_box{
+    margin-top: 5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #0500e4;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
