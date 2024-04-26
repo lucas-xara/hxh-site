@@ -79,7 +79,7 @@ border-radius: 50%;
 }
 
 .red_background{
-    background-color: rgba(178, 52, 52, 0.74);
+    background-color: #cb5363c8;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -301,3 +301,12 @@ img.beans_pic{
     width: 40rem;
     border-radius: 50%;
     }
+
+.footer_bg{
+    padding: 1rem;
+    background-color: #CB5364;
+}
+
+.footer_text{
+    color: whitesmoke;
+}
