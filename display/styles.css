@@ -187,14 +187,14 @@ img.profile {
 }
 
 .box_title {
+  margin-top: 5.5rem;
+  background-color: #0500e4;
   display: flex;
   flex-direction: column;
-  vertical-align: top;
-  margin-top: 155px;
+  vertical-align: text-top;
 }
 
 .box_text {
-  margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
   font-size: small;
@@ -333,86 +333,89 @@ img.beans_pic {
   padding-top: 3px;
 }
 
-.news_title{
-    margin-top: 6rem;
-    text-align: center;
-    margin: auto;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
+.news_title {
+  margin-top: 6rem;
+  text-align: center;
+  margin: auto;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
 }
 
-.newsletter_section{
-    overflow-y: hidden;
-}
-    
-.news_geral{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    margin-top: 3rem;
-    margin-bottom: -8rem;
+.newsletter_section {
+  overflow-y: hidden;
 }
 
-.dark_bg{
-    margin-left: 1%;
-    border-radius: 10px 10px;
-    overflow-y: hidden;
-    height: 22rem;
+.news_geral {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 3rem;
+  margin-bottom: -8rem;
 }
 
-.news_box{
-    border: 4px solid black;
-    border-radius: 8px 8px;
-    padding: 1rem;
-    margin-left: 1%;
-    margin-right: 1%;
-    height: 22rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 10rem;
+.dark_bg {
+  margin-left: 1%;
+  border-radius: 10px 10px;
+  overflow-y: hidden;
+  height: 22rem;
 }
 
-.email_input{
-    margin-bottom: 2rem;
+.news_box {
+  border: 4px solid black;
+  border-radius: 8px 8px;
+  padding: 1rem;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
 }
 
-input[type=text], select {
-    font-size: large;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 10px 10px;
-    box-sizing: border-box;
-    background: transparent;
-  }
+.email_input {
+  margin-bottom: 2rem;
+}
 
-  input[type=email], select {
-    font-size: large;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 10px 10px;
-    box-sizing: border-box;
-    background: transparent;
-  }
+input[type="text"],
+select {
+  font-size: large;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px;
+  box-sizing: border-box;
+  background: transparent;
+}
 
-  input[type=checkbox], select {
-    accent-color: #cb5364;
-  }
+input[type="email"],
+select {
+  font-size: large;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px;
+  box-sizing: border-box;
+  background: transparent;
+}
 
+input[type="checkbox"],
+select {
+  accent-color: #cb5364;
+}
 
-input[type=button], select {
-    margin-top: 2rem;
-    border: none;
-    background-color: #cb5364;
-    color: white;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 1rem;
+input[type="button"],
+select {
+  margin-top: 2rem;
+  border: none;
+  background-color: #cb5364;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 1rem;
 }
