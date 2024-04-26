@@ -281,9 +281,16 @@ border-radius: 50%;
 }
 
 .manager{
-    margin-top: 8rem;
-    margin-left: 24rem;
+    margin-top: 6rem;
+    margin-left: 30rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
+}
+
+.linha{
+    margin-bottom: 4rem;
+    margin-top: -1rem;
+    width: 38%;
+    margin-left: 30rem;
 }
 
 .bio_box{
