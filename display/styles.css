@@ -1,330 +1,334 @@
-*{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-.navbar{
-    width: 100%;
-    height: 6rem;
-    background-color: rgb(237, 237, 237);
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  width: 100%;
+  height: 6rem;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  justify-content: space-between;
 }
 
-li{
-    font-size: 20px;
+li {
+  font-size: 20px;
 }
 
-.conteiner_logo{
-    display: flex;
-    padding: 0.5rem;
-    align-items: center;
-    align-content: center;
-    margin-left: 2rem;
+.conteiner_logo {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  align-content: center;
+  margin-left: 2rem;
 }
 
-.conteiner_lista li{
-    list-style-type: none;
+.conteiner_lista li {
+  list-style-type: none;
 }
 
-.conteiner_lista ul{
-    margin-top: 14px;
-    display: flex;
-    gap: 80px;
-    font-size: 1.8rem;
-    margin-right: 1rem;
-    align-items: center;
-    align-content: center; 
+.conteiner_lista ul {
+  margin-top: 14px;
+  display: flex;
+  gap: 80px;
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  align-items: center;
+  align-content: center;
 }
 
-.button{
-    display: flex;
-    border-radius: 10px 10px;
-    background-color: #CB5364;
-    height: 40px;
-    width: 200px;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.421);
+.button {
+  display: flex;
+  border-radius: 10px 10px;
+  background-color: #cb5364;
+  height: 40px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.421);
 }
 
-.button_text{
-    margin: auto;
-    font-size: 20px;
-    color: whitesmoke;
+.button_text {
+  margin: auto;
+  font-size: 20px;
+  color: whitesmoke;
 }
 
-.login{
-    color: #0500E4;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    font-size: 16px;
+.login {
+  color: #0500e4;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
 }
 
-img.profile{
-border-radius: 50%;
+img.profile {
+  border-radius: 50%;
 }
 
-.city_background{
-    background-image: url("./assets/hunter_bg.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+.city_background {
+  background-image: url("./assets/hunter_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.red_background{
-    background-color: #cb5363c8;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+.red_background {
+  background-color: #cb5363c8;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
-.gradiente{
-    margin-top: -10rem;
-    background: whitesmoke;
-    height: 180px;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%);
+.gradiente {
+  margin-top: -10rem;
+  background: whitesmoke;
+  height: 180px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 60%
+  );
 }
 
-.welcome{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696) ;
-    width: 100vw;
-    padding-top: 125px;
-    height: 100vh;
-    padding-left: 80px;
-    font-size: 32px;
-    color:whitesmoke
+.welcome {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
+  width: 100vw;
+  padding-top: 125px;
+  height: 100vh;
+  padding-left: 80px;
+  font-size: 32px;
+  color: whitesmoke;
 }
 
-.netero{
-    margin-top: 6rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10rem;
-    gap: 100px;
+.netero {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+  gap: 100px;
 }
 
-.linha{
-    margin: auto;
-    width: 80%;
+.linha {
+  margin: auto;
+  width: 80%;
 }
 
-.zodiac_section{
-    padding-top: 100px;
-    background-color: rgb(227, 227, 227);
+.zodiac_section {
+  padding-top: 100px;
+  background-color: rgb(227, 227, 227);
 }
 
-.meet_zodiacs{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    background-color: rgb(227, 227, 227);
+.meet_zodiacs {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(227, 227, 227);
 }
 
-.about_zodiacs{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    flex-direction: column;
-    font-size: 24px;
-    padding-top: 50px;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(227, 227, 227);
+.about_zodiacs {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(227, 227, 227);
 }
 
-.conteinter_pai{
-    padding-top: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(227, 227, 227);
-    padding-bottom: 6rem;
+.conteinter_pai {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(227, 227, 227);
+  padding-bottom: 6rem;
 }
 
-.flex_container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    gap: 100px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.display_flex{
-    border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    height: 400px;
-    background-color: rgba(175,217,246,255);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
-    margin-bottom: 2rem;
+.display_flex {
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 400px;
+  background-color: rgba(175, 217, 246, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
+  margin-bottom: 2rem;
 }
 
-.box_title{
-    display: flex;
-    flex-direction: column;
-    vertical-align: top;
-    margin-top: 155px;
+.box_title {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  margin-top: 155px;
 }
 
-.box_text{
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: small;
+.box_text {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: small;
 }
 
-#rat{
-    background-image: url("./assets/zodiacs/rat.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#rat {
+  background-image: url("./assets/zodiacs/rat.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#dog{
-    background-image: url("./assets/zodiacs/dog.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#dog {
+  background-image: url("./assets/zodiacs/dog.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#ox{
-    background-image: url("./assets/zodiacs/ox.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#ox {
+  background-image: url("./assets/zodiacs/ox.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#snake{
-    background-image: url("./assets/zodiacs/snake.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#snake {
+  background-image: url("./assets/zodiacs/snake.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#dragon{
-    background-image: url("./assets/zodiacs/dragon.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#dragon {
+  background-image: url("./assets/zodiacs/dragon.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#rabbit{
-    background-image: url("./assets/zodiacs/rabbit.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#rabbit {
+  background-image: url("./assets/zodiacs/rabbit.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#horse{
-    background-image: url("./assets/zodiacs/horse.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#horse {
+  background-image: url("./assets/zodiacs/horse.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#sheep{
-    background-image: url("./assets/zodiacs/sheep.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#sheep {
+  background-image: url("./assets/zodiacs/sheep.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#monkey{
-    background-image: url("./assets/zodiacs/monkey.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#monkey {
+  background-image: url("./assets/zodiacs/monkey.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#chicken{
-    background-image: url("./assets/zodiacs/chicken.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#chicken {
+  background-image: url("./assets/zodiacs/chicken.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#tiger{
-    background-image: url("./assets/zodiacs/tiger.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#tiger {
+  background-image: url("./assets/zodiacs/tiger.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-#boar{
-    background-image: url("./assets/zodiacs/boar.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+#boar {
+  background-image: url("./assets/zodiacs/boar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-.manager{
-    margin-top: 6rem;
-    margin-left: 30rem;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
+.manager {
+  margin-top: 6rem;
+  margin-left: 30rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.159);
 }
 
-.linha{
-    margin-bottom: 4rem;
-    margin-top: -1rem;
-    width: 38%;
-    margin-left: 30rem;
+.linha {
+  margin-bottom: 4rem;
+  margin-top: -1rem;
+  width: 38%;
+  margin-left: 30rem;
 }
 
-.bio_box{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 26%;
-    margin-left: 26%;
-    margin-bottom: 10rem;
-    gap: 3rem;
-    padding: 2rem;
-    background-color: rgba(175,217,246,255);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
-    border-radius: 40px 40px;;
+.bio_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 26%;
+  margin-left: 26%;
+  margin-bottom: 10rem;
+  gap: 3rem;
+  padding: 2rem;
+  background-color: rgba(175, 217, 246, 255);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  border-radius: 40px 40px;
 }
 
-img.beans_pic{
-    width: 40rem;
-    border-radius: 50%;
-    }
-
-.footer_bg{
-    padding: 1rem;
-    background-color: #CB5364;
-    display: flex;
-    flex-direction: reverse;
-    width: 100%;
-    gap: 70%;
+img.beans_pic {
+  width: 40rem;
+  border-radius: 50%;
 }
 
-.footer_text{
-    color: whitesmoke;
+.footer_bg {
+  padding: 1rem;
+  background-color: #cb5364;
+  display: flex;
+  flex-direction: reverse;
+  width: 100%;
+  gap: 70%;
 }
 
-.linkedin{
-    padding-top: 3px;
+.footer_text {
+  color: whitesmoke;
+}
+
+.linkedin {
+  padding-top: 3px;
 }
