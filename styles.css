@@ -1,22 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
 
-.conteiner{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(88, 88, 106);
-}
-
 .navbar{
     width: 100%;
-    height: 20%;
+    height: 6rem;
     background-color: rgb(237, 237, 237);
     display: flex;
     justify-content: space-between;
+
 }
 
 li{
@@ -24,9 +20,10 @@ li{
 }
 
 .conteiner_logo{
-    justify-content: center;
-    padding: 1rem;
-    margin-top: 1rem;
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    align-content: center;
     margin-left: 2rem;
 }
 
@@ -35,36 +32,39 @@ li{
 }
 
 .conteiner_lista ul{
+    margin-top: 14px;
     display: flex;
     gap: 80px;
     font-size: 1.8rem;
-    padding: 1rem;
-    margin-top: 40px;
-    margin-right: 3rem;
-    align-content: center;
-
+    margin-right: 1rem;
+    align-items: center;
+    align-content: center; 
 }
 
-.tavern{
+.button{
     display: flex;
-    font-size: 1.8rem;
-    padding: 1rem;
+    border-radius: 10px 10px;
     background-color: #CB5364;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.421);
+}
+
+.button_text{
+    margin: auto;
+    font-size: 20px;
     color: whitesmoke;
-    height: 80px;
-    width: 400px;
-    border-radius: 15%;
-    align-content: center;
-    justify-content: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
 }
 
 .login{
     color: #0500E4;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     align-items: center;
+    font-size: 16px;
 }
 
 img.profile{
@@ -80,42 +80,44 @@ border-radius: 50%;
 }
 
 .red_background{
-    size: 100%, 750px;
     background-color: rgba(178, 52, 52, 0.74);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
 }
 
 .gradiente{
-    background: rgb(255,255,255);
-    margin-top: -220px;
-    height: 570px;
+    margin-top: -10rem;
+    background: whitesmoke;
+    height: 180px;
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%);
 }
 
 .welcome{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696) ;
     width: 100vw;
-    padding-top: 100px;
+    padding-top: 125px;
     height: 100vh;
     padding-left: 80px;
-    font-size: 48px;
+    font-size: 32px;
     color:whitesmoke
 }
 
-.netero_img{
-    padding-left: 60px;
-    padding-top: 600px;
-}
-
-.netero_quote{
-    font-size: x-large;
-    padding-left: 50rem;
-    margin-top: -300px;
+.netero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
 .linha{
-    padding-left: 15rem;
-    padding-top: 15rem;
+    margin: auto;
     width: 80%;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 .zodiac_section{
@@ -127,7 +129,7 @@ border-radius: 50%;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .about_zodiacs{
@@ -135,7 +137,7 @@ border-radius: 50%;
     margin-right: 100px;
     display: flex;
     flex-direction: column;
-    font-size: 48px;
+    font-size: 24px;
     padding-top: 50px;
     align-items: center;
     text-align: center;
@@ -155,6 +157,9 @@ border-radius: 50%;
     gap: 100px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .display_flex{
@@ -170,6 +175,103 @@ border-radius: 50%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.696);
 }
 
+.box_title{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    margin-top: 155px;
+}
+
+.box_text{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 box_pic{
     border-radius: 50%;
+}
+
+#rat{
+    background-image: url("./assets/zodiacs/rat.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#dog{
+    background-image: url("./assets/zodiacs/dog.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#ox{
+    background-image: url("./assets/zodiacs/ox.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#snake{
+    background-image: url("./assets/zodiacs/snake.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#dragon{
+    background-image: url("./assets/zodiacs/dragon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#rabbit{
+    background-image: url("./assets/zodiacs/rabbit.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#horse{
+    background-image: url("./assets/zodiacs/horse.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#sheep{
+    background-image: url("./assets/zodiacs/sheep.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#monkey{
+    background-image: url("./assets/zodiacs/monkey.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#chicken{
+    background-image: url("./assets/zodiacs/chicken.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#tiger{
+    background-image: url("./assets/zodiacs/tiger.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#boar{
+    background-image: url("./assets/zodiacs/boar.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
