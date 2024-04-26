@@ -305,8 +305,16 @@ img.beans_pic{
 .footer_bg{
     padding: 1rem;
     background-color: #CB5364;
+    display: flex;
+    flex-direction: reverse;
+    width: 100%;
+    gap: 70%;
 }
 
 .footer_text{
     color: whitesmoke;
+}
+
+.linkedin{
+    padding-top: 3px;
 }
