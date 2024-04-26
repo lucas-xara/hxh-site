@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Cadastro de Devs</h1>
+        <p>Preencha os campos com suas informações</p>
+    </div>
+    <form>
+        <fieldset>
+            <label>Nome</label>
+            <input type="text" />
+            <label>Sobrenome</label>
+            <input type="text" />
+            <label>E-mail</label>
+            <input type="email" />
+        </fieldset>
+
+
+        <div class="stack">
+            <label for="">Em qual aplicacao voce quer tabalhar?</label>
+            <input type="radio" value="frontend">front-end
+            <input type="radio" value="backend">back-end
+            <input type="radio" value="fullstack">fullS
+        </div>
+        <div class="campo_senioridade">
+            <label>Seniroidade</label>
+            <select name="seniroidade" id="seniroidade">
+                <option selected disabled value="">Selecione uma categoria</option>
+                <option value="juniot">Júnior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senior">Senior</option>
+            </select>
+        </div>
+    </form>
+
+</body>
+
+</html>
