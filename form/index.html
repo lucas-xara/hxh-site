@@ -25,9 +25,12 @@
 
         <div class="stack">
             <label for="">Em qual aplicacao voce quer tabalhar?</label>
-            <input type="radio" value="frontend">front-end
-            <input type="radio" value="backend">back-end
-            <input type="radio" value="fullstack">fullS
+            <input type="radio" value="frontend" name="stack" required />
+            <label for="stack">front-end</label>
+            <input type="radio" value="backend" name="stack" required />
+            <label for="stack">back-end</label>
+            <input type="radio" value="fullstack" name="stack" required />
+            <label for="stack">fullStack</label>
         </div>
         <div class="campo_senioridade">
             <label>Seniroidade</label>
@@ -38,8 +41,24 @@
                 <option value="senior">Senior</option>
             </select>
         </div>
+        <div class="checkbox">
+            <label>Seçecione as tecnologias</label>
+            <input type="checkbox" name="tecnologia1" id="tecnologia" value="html">
+            <label for="tecnologia1">HTML</label>
+            <input type="checkbox" name="tecnologia2" id="tecnologia" value="css">
+            <label for="tecnologia1">CSS</label>
+            <input type="checkbox" name="tecnologia1" id="tecnologia" value="javascript">
+            <label for="tecnologia1">javascript</label>
+            <input type="checkbox" name="tecnologia2" id="tecnologia" value="python">
+            <label for="tecnologia1">PYTHON</label>
+        </div>
     </form>
 
+    <div class="area_de_texto">
+        <label>Conte um pouco sobre</label>
+        <textarea name="exper" id="exper" cols="30" rows="10" required></textarea>
+    </div>
+    <button type="submit">enviar</button>
 </body>
 
 </html>
