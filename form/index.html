@@ -15,7 +15,7 @@
     <form>
         <fieldset>
             <label>Nome</label>
-            <input type="text" />
+            <input type="text" required />
             <label>Sobrenome</label>
             <input type="text" />
             <label>E-mail</label>
@@ -43,22 +43,23 @@
         </div>
         <div class="checkbox">
             <label>Seçecione as tecnologias</label>
-            <input type="checkbox" name="tecnologia1" id="tecnologia" value="html">
+            <input type="checkbox" name="tecnologia1" id="tecnologia" value="html" required />
             <label for="tecnologia1">HTML</label>
-            <input type="checkbox" name="tecnologia2" id="tecnologia" value="css">
+            <input type="checkbox" name="tecnologia2" id="tecnologia" value="css" required>
             <label for="tecnologia1">CSS</label>
             <input type="checkbox" name="tecnologia1" id="tecnologia" value="javascript">
             <label for="tecnologia1">javascript</label>
             <input type="checkbox" name="tecnologia2" id="tecnologia" value="python">
             <label for="tecnologia1">PYTHON</label>
         </div>
-    </form>
 
-    <div class="area_de_texto">
-        <label>Conte um pouco sobre</label>
-        <textarea name="exper" id="exper" cols="30" rows="10" required></textarea>
-    </div>
-    <button type="submit">enviar</button>
+
+        <div class="area_de_texto">
+            <label>Conte um pouco sobre</label>
+            <textarea name="exper" id="exper" cols="30" rows="10" required /></textarea>
+        </div>
+        <button type="submit">enviar</button>
+    </form>
 </body>
 
 </html>
